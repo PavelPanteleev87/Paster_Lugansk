@@ -1,0 +1,45 @@
+Имя переменной	Тип переменной	Адрес регистра	Комментарий	Метатип	Путь в каталоге
+Emergency	Целочисленное	512	Все аварии	Network	
+hr_Button_Start	Целочисленное	513	Start_button	Network	
+hr_Button_Stop	Целочисленное	514		Network	
+hr_Run	Целочисленное	515	Работа	Network	
+hr_WaitPump_Time_on	Целочисленное	516	Задержка на включение насоса по уровню воды	Network	
+hr_WaitPump_Time_off	Целочисленное	517	Задержка на выключение насоса по уровню воды	Network	
+hr_Manual_Pump	Целочисленное	518	Ручной режим работы насоса	Network	
+hr_Manual_StartPump	Целочисленное	519	Ручной старт насоса	Network	
+hr_Manual_SpeedPump	С плавающей запятой	520	Ручной скорость насоса	Network	
+hr_SetSpeedPump_1	С плавающей запятой	522	Скорость насоса-1	Network	
+hr_SetSpeedPump_2	С плавающей запятой	524	Скорость наосоа-2	Network	
+hr_select_Buc1	Целочисленное	526	Выбор бак 1	Network	
+hr_select_Buc2	Целочисленное	527	Выбор бак 2	Network	
+hw_AttentionNoWater	Целочисленное	528	Сигнал нет воды ВНИМАНИЕ	Network	
+hr_WaitValve_Time_Open	Целочисленное	529	Задержка на открытие клапана	Network	
+hr_WaitValve_Time_Close	Целочисленное	530	Задержка на закрытие клапана	Network	
+hr_WaitAlarmNoWater	Целочисленное	531	Задержка на форм-ие аварии 'нет воды'	Network	
+hr_Manual_ValveColdWater	Целочисленное	532	Выбор ручного режима кл хол воды	Network	
+hr_ManualOpen_ValveColdWa	Целочисленное	533	Ручное открытие клапна хол воды	Network	
+hr_ResetAlarms	Целочисленное	534	Сброс аварий	Network	
+hr_Manual_HotValveRegul	Целочисленное	535	Ручной режим управления клапаном нагрева	Network	
+hr_Manual_HotValve_DI	Целочисленное	536	Разрешение работы клапана нагрева	Network	
+hr_R_manual_HotValve_OpCl	С плавающей запятой	537	Ручной режим. Процент открытия клапана	Network	
+hr_R_SetHot	С плавающей запятой	539	Уставка для нагрева	Network	
+hr_R_P	С плавающей запятой	541	Коэф П	Network	
+hr_R_D	С плавающей запятой	543	Коэф Д	Network	
+hr_R_I	С плавающей запятой	545	Коэф И	Network	
+hr_R_setTempProduct	С плавающей запятой	547	Уставка температуры пастеризации	Network	
+hr_R_hysteresysHotter	С плавающей запятой	549	Гистерезис нагрева	Network	
+hr_I_TimeViderjka	Целочисленное	551	Уставка времени выдержки	Network	
+hr_resTimeViderjka	Целочисленное	552	РЕсет времени выдержки	Network	
+hr_1bac_I_Min_hot	Целочисленное	553	1бак Мин_Время выдержки	Network	
+hr_1bac_I_Sec_hot	Целочисленное	554	2бак Сек_Время выдержки	Network	
+hr_FinishTimeViderjka	Целочисленное	555	Финиш выдержка	Network	
+hr_Pause	Целочисленное	556	Пауза	Network	
+hr_NextStep	Целочисленное	557	Следующий шаг	Network	
+hr_SetTempProduct_Colder	С плавающей запятой	558	Уставка температуры охлаждения	Network	
+hr_CheckMarkColding	Целочисленное	560	Проверка выбора режима охлаждения	Network	
+hr_FinishColder_Wind	Целочисленное	561	Охлаждение выполненно - вызов окна	Network	
+hr_2bac_I_Min_hot	Целочисленное	562	1бак Мин_Время выдержки	Network	
+hr_2bac_I_Sec_hot	Целочисленное	563	2бак Сек_Время выдержки	Network	
+hr_1bac_timerFinish	Целочисленное	564	1 бак таймер выполнен	Network	
+hr_2bac_timerFinish	Целочисленное	565	2 бак таймер выполнен	Network	
+hr_Mesage_NotUseBac	Целочисленное	566	Сообщение об ошибке 'не выбран бак'	Network	
