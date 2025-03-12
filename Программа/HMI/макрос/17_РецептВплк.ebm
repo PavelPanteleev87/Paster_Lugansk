@@ -1,0 +1,52 @@
+﻿macro_definition_begin
+    "id": "17"
+    "name": "РецептВплк"
+    "startup": "false"
+    "periodic": [ "true", "10" ]
+    "interlock": [ "false" ]
+macro_definition_end
+
+macro_command main()
+unsigned short id = 0
+unsigned short num = 0
+float Te1, Te2,Te3,Te4,Te5,Te6,Te7  = 0
+unsigned short Time1,Time2,Time3,Time4,Time5,Time6,Time7 = 0
+
+
+// Получил id выбранного рецепта
+GetData(id, "Local HMI", RECIPE, "Beer.Selection")
+
+
+RecipeGetData(Te1 , "Beer.Te_1", id)
+RecipeGetData(Time1, "Beer.Min_1", id)
+RecipeGetData(Te2 , "Beer.Te_2", id)
+RecipeGetData(Time2, "Beer.Min_2", id)
+RecipeGetData(Te3 , "Beer.Te_3", id)
+RecipeGetData(Time3, "Beer.Min_3", id)
+RecipeGetData(Te4 , "Beer.Te_4", id)
+RecipeGetData(Time4, "Beer.Min_4", id)
+RecipeGetData(Te5 , "Beer.Te_5_p", id)
+RecipeGetData(Time5, "Beer.Min_5_p", id)
+RecipeGetData(Te6 , "Beer.Te_6", id)
+RecipeGetData(Time6, "Beer.Min_6", id)
+RecipeGetData(Te7 , "Beer.Te_7", id)
+RecipeGetData(Time7, "Beer.Min_7", id)
+
+
+SetData(Time1, "ПР103", "Time_to_Set_1-1-1", 1)
+SetData(Te1, "ПР103", "Temp_to_Set_1-1", 1)
+SetData(Time2, "ПР103", "Time_to_Set_1-1-2", 1)
+SetData(Te2, "ПР103", "Temp_to_Set_1-2", 1)
+SetData(Time3, "ПР103", "Time_to_Set_1-1-3", 1)
+SetData(Te3, "ПР103", "Temp_to_Set_1-3", 1)
+SetData(Time4, "ПР103", "Time_to_Set_1-1-4", 1)
+SetData(Te4, "ПР103", "Temp_to_Set_1-4", 1)
+SetData(Time5, "ПР103", "Time_to_Set_1-1-5", 1)
+SetData(Te5, "ПР103", "Temp_to_Set_1-5", 1)
+SetData(Time6, "ПР103", "Time_to_Set_1-1-6", 1)
+SetData(Te6, "ПР103", "Temp_to_Set_1-6", 1)
+SetData(Time7, "ПР103", "Time_to_Set_1-1-7", 1)
+SetData(Te7, "ПР103", "Temp_to_Set_1-7", 1)
+
+
+end macro_command
